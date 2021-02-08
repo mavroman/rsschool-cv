@@ -1,0 +1,56 @@
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  border: 1px solid blueviolet;
+}
+
+.header__name {
+  border: 1px solid red;
+  margin: 10px auto;
+}
+
+.image {
+  border-radius: 50%;
+
+}
+
+.contacts {
+  margin: 0 auto;
+}
+
+.menu {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid gray;
+  padding: 10px;
+  list-style: none;
+}
+
+.skills {
+  border: 1px solid red;
+}
+
+.skills__menu {
+}
+
+.skills__item {
+  max-width: 160px;
+  margin: 10px auto;
+  /* border: 1px solid red; */
+}
+
+.my-code__code {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 3px solid gray;
+    padding-left: 15px;
+    color: gray;
+
+}
