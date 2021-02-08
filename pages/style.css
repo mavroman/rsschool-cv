@@ -4,18 +4,12 @@
   text-align: center;
 }
 
-.header {
-  border: 1px solid blueviolet;
-}
-
 .header__name {
-  border: 1px solid red;
   margin: 10px auto;
 }
 
 .image {
   border-radius: 50%;
-
 }
 
 .contacts {
@@ -32,8 +26,9 @@
   list-style: none;
 }
 
-.skills {
-  border: 1px solid red;
+.about-me__text {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .skills__menu {
@@ -42,15 +37,31 @@
 .skills__item {
   max-width: 160px;
   margin: 10px auto;
-  /* border: 1px solid red; */
 }
 
 .my-code__code {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
-    border-left: 3px solid gray;
-    padding-left: 15px;
-    color: gray;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  border-left: 3px solid gray;
+  padding-left: 15px;
+  color: gray;
+}
 
+.work-experience {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.work-experience__menu {
+  list-style: decimal;
+  text-align: left;
+}
+
+.work-experience__link {
+  text-decoration: none;
+}
+
+.work-experience__item {
+  margin: 10px auto;
 }
