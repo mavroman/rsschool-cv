@@ -1,0 +1,64 @@
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__name {
+  margin: 10px auto;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.contacts {
+  margin: 0 auto;
+}
+
+.menu {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 1px solid gray;
+  padding: 10px;
+  list-style: none;
+}
+
+.about-me__text {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.skills__item {
+  max-width: 160px;
+  margin: 10px auto;
+}
+
+.my-code__code {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  border-left: 3px solid gray;
+  padding-left: 15px;
+  color: gray;
+}
+
+.work-experience {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.work-experience__menu {
+  list-style: decimal;
+  text-align: left;
+}
+
+.work-experience__link {
+  text-decoration: none;
+}
+
+.work-experience__item {
+  margin: 10px auto;
+}
