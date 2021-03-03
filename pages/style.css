@@ -1,4 +1,7 @@
+@import url(../vendor/fonts.css);
+
 .page {
+  font-family: Gilroy-Medium;
   max-width: 1180px;
   margin: 0 auto;
   text-align: center;
@@ -8,7 +11,16 @@
   margin: 10px auto;
 }
 
-.image {
+.about-me__text{
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.about-me__image {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -19,11 +31,44 @@
 .menu {
   max-width: 600px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   border-top: 1px solid gray;
   padding: 10px;
   list-style: none;
+}
+
+.menu_footer {
+  max-width: 80%;
+  margin-top: 40px;
+  /* border: 1px solid red; */
+  border-top: 1px solid gray;
+}
+
+.menu__item {
+  line-height: 50px;
+  /* border: 1px solid red; */
+}
+
+.menu__item-link {
+  text-decoration: none;
+  color: tomato;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.menu__item-link:hover {
+  opacity: 0.7;
+}
+
+.menu__icon{
+  width: 50px;
+  height: 50px;
+}
+
+.menu__icon-rs{
+  width: 65px;
+  height: 65px;
 }
 
 .about-me__text {
@@ -57,6 +102,13 @@
 
 .work-experience__link {
   text-decoration: none;
+  color: tomato;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.work-experience__link:hover {
+  opacity: 0.7;
 }
 
 .work-experience__item {
