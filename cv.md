@@ -31,3 +31,10 @@ const parsedDateTo =
 3. The educational project, the site ['Portfolio'](https://mavroman.github.io/portfolio-designer/) (https://github.com/mavroman/hungry-people)
 
 
+*Education:*
+1. *Course Frontend developer (Yandex Praktikum)*
+2. *Course JavaScript for beginners (Stepik)*
+3. *Agile Management (Netology)*
+
+*English language skills:*
+>English at A1 level. At the moment I am doing self-study and I want to reach the A2 level
